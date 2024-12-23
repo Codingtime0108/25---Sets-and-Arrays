@@ -1,0 +1,16 @@
+set_a = {"red", "blue"}
+set_b = {"blue", "orange"}
+print( "Original set elements:")
+print( set_a)
+print( set_b)
+print("\nIntersection of the two given sets:")
+set_c = set_a.intersection(set_b)
+print(set_c)
+
+set_d = set_a.union(set_b)
+print("\nUnion of the two given sets:")
+print(set_d)
+
+set_e = set_a.difference(set_b)
+print("\nDiffernce of the two given sets:")
+print(set_e)
